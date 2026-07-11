@@ -25,9 +25,10 @@ nav ul li a {
     font-size: 16px;
     font-weight: 400;
 }
-.common-title{
+
+.common-title {
     font-family: 'Inter';
-font-size: 48px;
+    font-size: 48px;
     font-weight: 700;
     text-align: center;
 }
@@ -41,11 +42,20 @@ font-size: 48px;
     font-size: 16px;
     font-weight: 400;
 }
-.text-color{
+
+.text-color {
     color: #1d4ed8;
+    font-weight: 400;
+    font-size: 12px;
 }
-.common-text-color{
+
+.common-text-color {
     color: rgb(168, 167, 167);
+    font-weight: 400;
+    font-size: 12px;
+}
+.text-align{
+    text-align: center;
 }
 
 header {
@@ -83,9 +93,9 @@ header {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-   font-family: 'Inter';
-   
-    
+    font-family: 'Inter';
+
+
 
 }
 
@@ -94,18 +104,56 @@ header {
     height: 350px;
     border: 0.5px rgb(208, 206, 206) solid;
     border-radius: 8%;
-   padding: 5%;
-   margin: 5%;
-   text-align: left;
+    padding: 5%;
+    margin: 5%;
+    text-align: left;
 }
 
 .card-container img {
     width: 100%;
 }
-.card-container p{
-    
-    font-weight: 400;
-    font-size: 12px;
+
+.price-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-card-container div {
+    width: 450px;
+    height: 300px;
+    border: 0.5px rgb(208, 206, 206) solid;
+    border-radius: 8%;
+    padding: 3%;
+    margin: 5%;
+    text-align: left;
+}
+.price-card-container ul li::marker{
+    color: #1d4ed8;
     
 }
 
+.price-card-container div button{
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 8px 32px;
+}
+.standard-btn{
+    border: 1px solid #1d4ed8;
+    color: #1d4ed8;
+}
+.price{
+    font-weight: 700;
+    font-size:20px ;
+}
+.pro-price-card{
+     font-weight: 700;
+    font-size:20px ;
+background-color: #140633;
+}
+
+.pro-price-card h2{
+    color: #ffffff;
+}
