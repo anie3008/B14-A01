@@ -157,3 +157,80 @@ background-color: #140633;
 .pro-price-card h2{
     color: #ffffff;
 }
+
+/* Book Your Stay Section */
+
+.book-stay {
+    background: url("https://images.unsplash.com/photo-1566073771259-6a8506099945") center center/cover no-repeat;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    width: 100%;
+    min-height: 500px;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.book-content {
+    max-width: 700px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.book-content h2 {
+    font-family: "Inter";
+    font-size: 42px;
+    margin-bottom: 20px;
+    
+}
+
+.book-content p {
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+/* Button */
+
+.book-content button {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-content button:hover {
+    background-color: #1e40af;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
