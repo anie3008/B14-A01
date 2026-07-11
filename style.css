@@ -25,6 +25,12 @@ nav ul li a {
     font-size: 16px;
     font-weight: 400;
 }
+.common-title{
+    font-family: 'Inter';
+font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
 
 .primary-btn {
     background-color: #1d4ed8;
@@ -34,6 +40,12 @@ nav ul li a {
     border-radius: 8px;
     font-size: 16px;
     font-weight: 400;
+}
+.text-color{
+    color: #1d4ed8;
+}
+.common-text-color{
+    color: rgb(168, 167, 167);
 }
 
 header {
@@ -57,11 +69,43 @@ header {
 
 .hero-content h2 {
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .hero-content p {
     font-size: 20px;
     font-weight: 400;
 
-};
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+   font-family: 'Inter';
+   
+    
+
+}
+
+.card-container div {
+    width: 500px;
+    height: 350px;
+    border: 0.5px rgb(208, 206, 206) solid;
+    border-radius: 8%;
+   padding: 5%;
+   margin: 5%;
+   text-align: left;
+}
+
+.card-container img {
+    width: 100%;
+}
+.card-container p{
+    
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+
