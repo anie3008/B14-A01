@@ -87,6 +87,10 @@ header {
     font-weight: 400;
 
 }
+.hero-content button{
+    position: relative;
+    top: 220px;
+}
 
 .card-container {
     display: grid;
@@ -226,6 +230,7 @@ background-color: #140633;
     align-items: center;
     padding-top: 5%;
     font-size: 20px;
+
 }
 .footer-bottom{
     display: flex;
